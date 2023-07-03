@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header id="site-header">
+      <nav>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-lg-6 nav-logo">
+              <div class="waviy">
+                <span style="--i: 1">E</span>
+                <span style="--i: 2">s</span>
+                <span style="--i: 3">m</span>
+                <span style="--i: 4">e</span>
+                <span style="--i: 5">r</span>
+                <span style="--i: 6"></span>
+                <span style="--i: 7">T</span>
+                <span style="--i: 8">e</span>
+                <span style="--i: 9">r</span>
+                <span style="--i: 10">i</span>
+                <span style="--i: 11">s</span>
+                <span style="--i: 12">h</span>
+                <span style="--i: 13">l</span>
+                <span style="--i: 14">i</span>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-lg-6 menu-toggle">
+              <i class="fa-solid fa-bars icon-click" onclick="show()"></i>
+
+              <div class="menu-link">
+                <ul class="nav_list mb-0 ps-0">
+                  <li class="nav_item">
+                    <a
+                      href="#home-section"
+                      class="nav_link"
+                      style="color: #6e57e0"
+                    >
+                      <i class="fa-solid fa-house nav_icon"></i>Home
+                    </a>
+                  </li>
+                  <li class="nav_item">
+                    <a href="#about-section" class="nav_link">
+                      <i class="fa-solid fa-user nav_icon"></i>About
+                    </a>
+                  </li>
+                  <li class="nav_item">
+                    <a href="#skills-section" class="nav_link">
+                      <i class="fa-solid fa-file nav_icon"></i>Skills
+                    </a>
+                  </li>
+                  <li class="nav_item">
+                    <a href="#project-section" class="nav_link">
+                      <i class="fa-solid fa-image nav_icon"></i>Portfolio
+                    </a>
+                  </li>
+                  <li class="nav_item">
+                    <a href="#contactme-section" class="nav_link">
+                      <i class="fa-solid fa-message nav_icon"></i>Contact
+                    </a>
+                  </li>
+                  <li class="nav_item">
+                    <a href="#a" class="nav_link title-dark">
+                        <i id="theme-icon" class="fa-solid fa-moon change-theme"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home-section">
+      <div class="container container-general">
+        <div class="row">
+          <div class="home-left-section col-sm-12 col-md-6">
+            <h1 class="home__title">Hi, I'm Esmer</h1>
+            <h3 class="home__subtitle" id="text-subtitle"></h3>
+            <p class="home__description">
+              High level experience in web design and development knowledge ,
+              producing quality work.
+            </p>
+            <a href="#contactme-section" class="button-general">
+              Contact Me <i class="fa-solid fa-message"></i>
+            </a>
+          </div>
+          <div class="home-right-section col-sm-12 col-md-6">
+            <img src="./image/img1.jpg" alt="img1" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about-section">
+      <div class="container container-general">
+        <div class="about-title-container">
+          <h2 class="about-title">About Me</h2>
+          <span class="about-subtitle">My introduction</span>
+        </div>
+        <div class="about-description">
+          <div class="about-left-section col-sm-12 col-lg-6">
+            <div class="about-image">
+              <img src="./image/img2.jpg" alt="img2" />
+            </div>
+          </div>
+          <div class="about-right-section col-sm-12 col-lg-6">
+            <div class="about-data">
+              <p class="about-description-text">
+                I think that the skills I mentioned correspond to the job
+                description and perspectives. I have no doubt that I will add
+                value to any company.
+              </p>
+              <div class="about-info">
+                <div>
+                  <span class="about-info-title">01+</span>
+                  <span class="about-info-name"
+                    >Years <br />
+                    experience</span
+                  >
+                </div>
+                <div>
+                  <span class="about-info-title">10+</span>
+                  <span class="about-info-name"
+                    >Completed <br />
+                    project</span
+                  >
+                </div>
+                <div>
+                  <span class="about-info-title">01+</span>
+                  <span class="about-info-name"
+                    >Companies <br />
+                    worked</span
+                  >
+                </div>
+              </div>
+              <div class="about-button">
+                <a
+                  download=""
+                  href="./Cv Resume -Esmer-Terishli.pdf"
+                  class="button-general"
+                >
+                  Download CV <i class="fa-solid fa-download"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills-section">
+      <div class="container container-general skill-container">
+        <div class="about-title-container">
+          <h2 class="about-title">Skills</h2>
+          <span class="about-subtitle">My technical level</span>
+        </div>
+        <div class="tabs">
+          <div class="tab-header">
+            <div class="active tab-top">
+              <i class="fa-solid fa-laptop-code"></i> Soft skills
+            </div>
+            <div><i class="fa fa-code"></i> Hard skills</div>
+          </div>
+          <div class="tab-indicator"></div>
+          <div class="tab-content">
+            <div class="active">
+              <ul class="skill-list">
+                <li>Teamwork</li>
+                <li>Problem solving</li>
+                <li>Adaptability</li>
+                <li>Time management</li>
+                <li>Conflict resolution</li>
+              </ul>
+            </div>
+            <div>
+              <div class="non-active-skill">
+                <div class="skill-hard">
+                  <i class="fa-brands fa-html5" style="color: #eb843e"></i>
+                  <span>HTML</span>
+                </div>
+                <div class="skill-hard">
+                  <i class="fa-brands fa-css3-alt" style="color: #016cb4"></i>
+                  <span>CSS</span>
+                </div>
+                <div class="skill-hard">
+                  <i class="fa-brands fa-sass" style="color: #c76494"></i>
+                  <span>Sass</span>
+                </div>
+                <div class="skill-hard">
+                  <i class="fa-brands fa-bootstrap" style="color: #7910f2"></i>
+                  <span>BootStrap</span>
+                </div>
+                <div class="skill-hard">
+                  <i class="fa-brands fa-js" style="color: #f7d800"></i>
+                  <span>JavaScript</span>
+                </div>
+                <div class="skill-hard">
+                  <i class="fa-brands fa-react" style="color: #00d2e8"></i>
+                  <span>React</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="qualification" id="qualification-section">
+      <div class="container container-general-qual">
+        <div class="about-title-container">
+          <h2 class="about-title">Qualification</h2>
+          <span class="about-subtitle">My personal journey</span>
+        </div>
+
+        <div class="qualification-container">
+          <div class="qualification-tabs">
+            <div
+              class="qualification-button qualification-active"
+              data-target="#education"
+            >
+              <i class="fa-solid fa-graduation-cap qualification-icon"></i>
+              Education
+            </div>
+
+            <div class="qualification-button" data-target="#work">
+              <i class="fa-solid fa-briefcase qualification-icon"></i>
+              Work
+            </div>
+          </div>
+
+          <div class="qualification__sections">
+            <!-- QUALIFICATION CONTENT 1-->
+            <div
+              class="qualification-content qualification-active"
+              data-content
+              id="education"
+            >
+              <!-- QUALIFICATION 1-->
+              <div class="qualification-data">
+                <div>
+                  <h3 class="qualification-title">Computer Engineering</h3>
+                  <span class="qualification-subtitle"
+                    >Azerbaijan state oil and industry university (Bachelor's
+                    degree)</span
+                  >
+                  <div class="qualification-calendar">
+                    <i class="fa-sharp fa-solid fa-calendar-days"></i>
+                    2018 - 2022
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification-rounder"></span>
+                  <span class="qualification-line"></span>
+                </div>
+              </div>
+
+              <!-- QUALIFICATION 2-->
+              <div class="qualification-data">
+                <div></div>
+
+                <div>
+                  <span class="qualification-rounder"></span>
+                  <span class="qualification-line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification-title">
+                    Information technology and systems engineering
+                  </h3>
+                  <span class="qualification-subtitle"
+                    >Azerbaijan state economic university (Master's
+                    degree)</span
+                  >
+                  <div class="qualification-calendar">
+                    <i class="fa-sharp fa-solid fa-calendar-days"></i>
+                    2022 - 2024
+                  </div>
+                </div>
+              </div>
+
+              <!-- QUALIFICATION 4-->
+              <div class="qualification-data">
+                <div></div>
+                <div>
+                  <span class="qualification-rounder"></span>
+                </div>
+              </div>
+            </div>
+
+            <!-- QUALIFICATION CONTENT 2-->
+            <div class="qualification-content" data-content id="work">
+              <!-- QUALIFICATION 1-->
+              <div class="qualification-data">
+                <div>
+                  <h3 class="qualification-title">Lorem, ipsum dolor.</h3>
+                  <span class="qualification-subtitle">Lorem, ipsum.</span>
+                  <div class="qualification-calendar">
+                    <i class="fa-sharp fa-solid fa-calendar-days"></i>
+                    2022 - 2023
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification-rounder"></span>
+                  <span class="qualification-line"></span>
+                </div>
+              </div>
+
+              <!-- QUALIFICATION 3-->
+              <div class="qualification-data">
+                <div></div>
+                <div>
+                  <span class="qualification-rounder"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq-accordion-section">
+      <div class="container container-general">
+        <div class="faq-title-container">
+          <h2 class="faq-title">FAQ</h2>
+        </div>
+        <div class="accordion-general row">
+          <div class="accordion-left col-sm-12 col-lg-6">
+            <div class="accordion">
+              <div class="accordion-content">
+                <div class="accordion-description">
+                  <span class="title"
+                    >What measures do you take for mobile compatibility and
+                    responsive design?</span
+                  >
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <p class="description">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Natus nobis ut perspiciatis minima quidem nisi, obcaecati,
+                  delectus consequatur fuga nostrum iusto ipsam ducimus
+                  quibusdam possimus. Maiores non enim numquam voluptatem?
+                </p>
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-description">
+                  <span class="title"
+                    >What frontend frameworks or libraries do you utilize?</span
+                  >
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <p class="description">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Natus nobis ut perspiciatis minima quidem nisi, obcaecati,
+                  delectus consequatur fuga nostrum iusto ipsam ducimus
+                  quibusdam possimus. Maiores non enim numquam voluptatem?
+                </p>
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-description">
+                  <span class="title"
+                    >What optimization techniques do you employ to enhance site
+                    performance?</span
+                  >
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <p class="description">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Natus nobis ut perspiciatis minima quidem nisi, obcaecati,
+                  delectus consequatur fuga nostrum iusto ipsam ducimus
+                  quibusdam possimus. Maiores non enim numquam voluptatem? Lorem
+                  ipsum dolor sit amet, consectetur adipisicing elit. Iusto
+                  neque, sed inventore illum ut quis ducimus deleniti temporibus
+                  maiores? At nisi sed pariatur cupiditate quidem quod adipisci
+                  aut, eos quis minima voluptates non veniam ipsam quasi
+                  architecto ducimus error eum id ab, suscipit doloribus, ut
+                  accusantium consequuntur voluptate! Unde, hic sed rerum
+                  officia totam id libero officiis nihil rem sequi porro labore
+                  praesentium repudiandae a blanditiis molestias nisi beatae
+                  natus! Ea, ut voluptates, natus harum nesciunt odio hic
+                  eveniet reprehenderit veritatis, possimus tempora magni soluta
+                  eaque quidem neque maxime nostrum sapiente commodi? Earum ex
+                  cumque cupiditate dicta, tempora temporibus quaerat.
+                </p>
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-description">
+                  <span class="title"
+                    >How is the security of the website maintained?</span
+                  >
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <p class="description">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Natus nobis ut perspiciatis minima quidem nisi, obcaecati,
+                  delectus consequatur fuga nostrum iusto ipsam ducimus
+                  quibusdam possimus. Maiores non enim numquam voluptatem?
+                </p>
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-description">
+                  <span class="title"
+                    >What testing processes or automation tools do you
+                    use?</span
+                  >
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <p class="description">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Natus nobis ut perspiciatis minima quidem nisi, obcaecati,
+                  delectus consequatur fuga nostrum iusto ipsam ducimus
+                  quibusdam possimus. Maiores non enim numquam voluptatem?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-right col-sm-12 col-lg-6">
+            <img
+              src="https://i.pinimg.com/564x/9e/a0/c9/9ea0c987483e304ce1dca657752cd194.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials-section">
+      <div class="container container-general test-container">
+        <h2 class="faq-title">TESTIMONIALS</h2>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="swiper-description">
+                <div class="swiper-image">
+                  <img src="./image/img13.jpg" alt="" />
+                </div>
+                <div class="swiper-title">
+                  <h3>Fidan Terishli</h3>
+                  <span class="about-subtitle">Data Analyst</span>
+                </div>
+              </div>
+              <div class="swiper-comment">
+                <p class="about-subtitle about-subtitle2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                  nobis, quam sed odit veniam maxime debitis sint in ipsum,
+                  incidunt ducimus delectus explicabo consequatur dicta
+                  blanditiis, laboriosam eaque rerum enim.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-description">
+                <div class="swiper-image swiper15">
+                  <img src="./image/img15.jpg" alt="" />
+                </div>
+                <div class="swiper-title">
+                  <h3>Zumrud Baxshaliyeva</h3>
+                  <span class="about-subtitle">Frontend Developer</span>
+                </div>
+              </div>
+              <div class="swiper-comment">
+                <p class="about-subtitle about-subtitle2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                  nobis, quam sed odit veniam maxime debitis sint in ipsum,
+                  incidunt ducimus delectus explicabo consequatur dicta
+                  blanditiis, laboriosam eaque rerum enim.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-description">
+                <div class="swiper-image">
+                  <img src="./image/img14.jpg" alt="" />
+                </div>
+                <div class="swiper-title">
+                  <h3>Nihat Terishli</h3>
+                  <span class="about-subtitle">Backend Developer</span>
+                </div>
+              </div>
+              <div class="swiper-comment">
+                <p class="about-subtitle about-subtitle2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                  nobis, quam sed odit veniam maxime debitis sint in ipsum,
+                  incidunt ducimus delectus explicabo consequatur dicta
+                  blanditiis, laboriosam eaque rerum enim.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-description">
+                <div class="swiper-image">
+                  <img src="./image/img13.jpg" alt="" />
+                </div>
+                <div class="swiper-title">
+                  <h3>Fidan Terishli</h3>
+                  <span class="about-subtitle">Data Analyst</span>
+                </div>
+              </div>
+              <div class="swiper-comment">
+                <p class="about-subtitle about-subtitle2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                  nobis, quam sed odit veniam maxime debitis sint in ipsum,
+                  incidunt ducimus delectus explicabo consequatur dicta
+                  blanditiis, laboriosam eaque rerum enim.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-description">
+                <div class="swiper-image">
+                  <img src="./image/img15.jpg" alt="" />
+                </div>
+                <div class="swiper-title">
+                  <h3>Zumrud Baxshaliyeva</h3>
+                  <span class="about-subtitle">Frontend Developer</span>
+                </div>
+              </div>
+              <div class="swiper-comment">
+                <p class="about-subtitle about-subtitle2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                  nobis, quam sed odit veniam maxime debitis sint in ipsum,
+                  incidunt ducimus delectus explicabo consequatur dicta
+                  blanditiis, laboriosam eaque rerum enim.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="project projects" id="project-section">
+      <div class="container container-general">
+        <div class="about-title-container">
+          <h2 class="about-title">Portfolio</h2>
+          <span class="about-subtitle"
+            >Most recent work (HTML, CSS, JavaScript)</span
+          >
+        </div>
+
+        <div class="project-container">
+          <div class="project-tabs">
+            <div
+              class="project-button project-active"
+              data-target="#education2"
+            >
+              <i class="fa-solid fa-code project-icon"></i>
+              ALL
+            </div>
+
+            <div class="project-button" data-target="#work2">
+              <i class="fa-solid fa-laptop-code project-icon"></i>
+              HTML, CSS
+            </div>
+
+            <div class="project-button" data-target="#work3">
+              <i class="fa-brands fa-js project-icon"></i>
+              JavaScript
+            </div>
+          </div>
+
+          <div class="project__sections">
+            <div
+              class="project-content project-active"
+              data-content
+              id="education2"
+            ></div>
+
+            <div class="project-content" data-content id="work2">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-6 card2">
+                    <div class="card card-space">
+                      <div class="card-body">
+                        <div class="card-image">
+                          <img src="./image/img3.jpg" alt="" />
+                        </div>
+
+                        <h5 class="card-title">Restaurant Website</h5>
+                        <p class="about-subtitle card-subtitle">
+                          Website adaptable to all devices, with ui components
+                          and animated interactions.
+                        </p>
+                        <a
+                          href="https://brilliant-biscochitos-f2af21.netlify.app/"
+                          target="_blank"
+                          class="btn"
+                          >Demo</a
+                        >
+                        <a
+                          href="https://github.com/Esmer-Terishli/Restaurant-project"
+                          target="_blank"
+                          class="btn btn2"
+                          >Code</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 card2">
+                    <div class="card card-space">
+                      <div class="card-body">
+                        <div class="card-image">
+                          <img src="./image/img4.jpg" alt="" />
+                        </div>
+
+                        <h5 class="card-title">Natural Food Website</h5>
+                        <p class="about-subtitle card-subtitle">
+                          Website adaptable to all devices, with ui components
+                          and animated interactions.
+                        </p>
+                        <a
+                          href="https://super-bublanina-1f43d0.netlify.app/"
+                          target="_blank"
+                          class="btn"
+                          >Demo</a
+                        >
+                        <a href="#" target="_blank" class="btn btn2">Code</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 card2">
+                    <div class="card card-space">
+                      <div class="card-body">
+                        <div class="card-image">
+                          <img src="./image/img5.jpg" alt="" />
+                        </div>
+
+                        <h5 class="card-title">Design Studio Website</h5>
+                        <p class="about-subtitle card-subtitle">
+                          Website adaptable to all devices, with ui components
+                          and animated interactions.
+                        </p>
+                        <a
+                          href="https://dynamic-cucurucho-432430.netlify.app/"
+                          target="_blank"
+                          class="btn"
+                          >Demo</a
+                        >
+                        <a href="#" target="_blank" class="btn btn2">Code</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 card2">
+                    <div class="card card-space">
+                      <div class="card-body">
+                        <div class="card-image">
+                          <img src="./image/img11.jpg" alt="" />
+                        </div>
+
+                        <h5 class="card-title">Construction Company Website</h5>
+                        <p class="about-subtitle card-subtitle">
+                          Website adaptable to all devices, with ui components
+                          and animated interactions.
+                        </p>
+                        <a
+                          href="https://project3-esmer-terishli.netlify.app/"
+                          target="_blank"
+                          class="btn"
+                          >Demo</a
+                        >
+                        <a
+                          href="https://github.com/Esmer-Terishli/project3"
+                          target="_blank"
+                          class="btn btn2"
+                          >Code</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-content" data-content id="work3">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-6 card2">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="card-image">
+                          <img src="./image/img6.jpg" alt="" />
+                        </div>
+
+                        <h5 class="card-title">Movie Ticket Website</h5>
+                        <p class="about-subtitle card-subtitle">
+                          Website adaptable to all devices, with ui components
+                          and animated interactions.
+                        </p>
+                        <a
+                          href="https://capable-chebakia-3465f6.netlify.app/"
+                          target="_blank"
+                          class="btn"
+                          >Demo</a
+                        >
+                        <a
+                          href="https://github.com/Esmer-Terishli/film-project-api"
+                          target="_blank"
+                          class="btn btn2"
+                          >Code</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 card2">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="card-image">
+                          <img src="./image/img7.jpg" alt="" />
+                        </div>
+
+                        <h5 class="card-title">Quiz Website</h5>
+                        <p class="about-subtitle card-subtitle">
+                          Website adaptable to all devices, with ui components
+                          and animated interactions.
+                        </p>
+                        <a
+                          href="https://keen-gnome-493d2a.netlify.app/"
+                          target="_blank"
+                          class="btn"
+                          >Demo</a
+                        >
+                        <a href="#" target="_blank" class="btn btn2">Code</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 card2">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="card-image">
+                          <img src="./image/img8.jpg" alt="" />
+                        </div>
+
+                        <h5 class="card-title">Search/Filter</h5>
+                        <p class="about-subtitle card-subtitle">
+                          Website adaptable to all devices, with ui components
+                          and animated interactions.
+                        </p>
+                        <a
+                          href="https://snazzy-torte-88390d.netlify.app/"
+                          target="_blank"
+                          class="btn"
+                          >Demo</a
+                        >
+                        <a href="#" target="_blank" class="btn btn2">Code</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 card2">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="card-image">
+                          <img src="./image/img9.jpg" alt="" />
+                        </div>
+
+                        <h5 class="card-title">Add tags input</h5>
+                        <p class="about-subtitle card-subtitle">
+                          Website adaptable to all devices, with ui components
+                          and animated interactions.
+                        </p>
+                        <a
+                          href="https://inspiring-puffpuff-7e4fea.netlify.app/"
+                          target="_blank"
+                          class="btn"
+                          >Demo</a
+                        >
+                        <a href="#" target="_blank" class="btn btn2">Code</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 card2">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="card-image">
+                          <img src="./image/img10.jpg" alt="" />
+                        </div>
+
+                        <h5 class="card-title">Sidebar Menu</h5>
+                        <p class="about-subtitle card-subtitle">
+                          Website adaptable to all devices, with ui components
+                          and animated interactions.
+                        </p>
+                        <a
+                          href="https://magnificent-salmiakki-ab4da8.netlify.app/"
+                          target="_blank"
+                          class="btn"
+                          >Demo</a
+                        >
+                        <a href="#" target="_blank" class="btn btn2">Code</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 card2">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="card-image">
+                          <img src="./image/img12.jpg" alt="" />
+                        </div>
+
+                        <h5 class="card-title">ToDo List</h5>
+                        <p class="about-subtitle card-subtitle">
+                          Website adaptable to all devices, with ui components
+                          and animated interactions.
+                        </p>
+                        <a
+                          href="https://todo-list-project5.netlify.app/"
+                          target="_blank"
+                          class="btn"
+                          >Demo</a
+                        >
+                        <a href="#" target="_blank" class="btn btn2">Code</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-section">
+      <div class="container container-general">
+        <div class="contact-data">
+          <h2 class="contact-title">You have a new project</h2>
+          <p class="contact-description">Contact me now.</p>
+          <a href="#contactme-section">
+            Contact Me
+            <i class="fa-solid fa-message"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contactme-section">
+      <div class="container container-general">
+        <div class="about-title-container contact-container">
+          <h2 class="about-title">Contact Me</h2>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 contact-left">
+            <div class="contact-info">
+              <i class="fa-solid fa-phone"></i>
+              <div class="contact-description">
+                <h3 class="contact-text">Call Me</h3>
+                <span class="about-subtitle contact-subtitle"
+                  >+995 50 995 11 94</span
+                >
+              </div>
+            </div>
+            <div class="contact-info">
+              <i class="fa-solid fa-envelope contact__icon"></i>
+              <div class="contact-description">
+                <h3 class="contact-text">Email</h3>
+                <span class="about-subtitle contact-subtitle"
+                  >esmerterishli@mail.ru</span
+                >
+              </div>
+            </div>
+            <div class="contact-info">
+              <i class="fa-sharp fa-solid fa-location-dot"></i>
+              <div class="contact-description">
+                <h3 class="contact-text">Location</h3>
+                <span class="about-subtitle contact-subtitle"
+                  >Azerbaijan - Baku</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-8 contact-right">
+            <form action="">
+              <div class="contact-inputs">
+                <div class="contact-input1 cont2">
+                  <input
+                    type="text"
+                    id="name-input"
+                    placeholder="Name"
+                    required
+                  />
+                  <div id="name-input-message" class="input-message"></div>
+                </div>
+                <div class="contact-input1">
+                  <input type="text" id="email-input" placeholder="Email" />
+                  <div id="email-input-message" class="input-message"></div>
+                </div>
+              </div>
+              <div class="contact-inputs2">
+                <div class="contact-input2">
+                  <input
+                    type="text"
+                    id="project-input"
+                    placeholder="Project"
+                    required
+                  />
+                  <div id="project-input-message" class="input-message"></div>
+                </div>
+              </div>
+              <div class="contact-inputs3">
+                <div class="contact-textarea">
+                  <textarea
+                    id="message-input"
+                    placeholder="Message"
+                    required
+                  ></textarea>
+                  <div id="message-input-message" class="input-message"></div>
+                </div>
+              </div>
+            </form>
+            <a
+              href="#contactme-section"
+              class="contactme-button"
+              id="contact-click"
+            >
+              Contact Me
+              <i class="fa-solid fa-message"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+        <div class="footer-social">
+            <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/esmer-terishli-580744203/" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/Esmer-Terishli" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+        <div class="footer-copyright">
+        <p>&#169; @esmerterishli.</p>
+        </div>
+    </footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="fa-solid fa-arrow-up scrollup-icon"></i>
+    </a>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
